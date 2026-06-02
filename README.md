@@ -1,4 +1,4 @@
-#  Loan Guard — Loan Default Prediction & Deployment
+#  Loan Guard: Loan Default Prediction & Deployment
 A deployed ML system that predicts loan default risk in real time comparing Logistic Regression, XGBoost, and Neural Network with SHAP explainability built for banking regulatory standards.
 ---
 
