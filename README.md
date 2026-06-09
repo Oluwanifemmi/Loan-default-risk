@@ -60,13 +60,14 @@ SHAP explainability and XGBoost feature importance consistently agreed on the ke
 
 ---
 
-## 🚀 Deployment Streamlit App
+## 🚀 Deployment Render App
 
-The Xgboost model is deployed as an interactive Streamlit application:
+The Xgboost model is deployed as an interactive render application:
 
 - Loan officers input applicant details and receive a real time default probability
 - Risk score with feature contribution breakdown
 - Designed for non technical users in credit teams
+- https://loan-default-risk-3yo4.onrender.com/docs (Deployed)
 
 ```bash
 streamlit run app.py
