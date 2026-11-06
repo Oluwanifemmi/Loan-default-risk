@@ -2,13 +2,13 @@
 A deployed ML system that predicts loan default risk in real time comparing Logistic Regression, XGBoost, and Neural Network with SHAP explainability built for banking regulatory standards.
 ---
 
-## 🧩 The Business Problem
+##  The Business Problem
 
 Traditional credit scoring is interpretable but linear. Real world default risk is not.
 
 ---
 
-## 🏆 Solution & Results
+##  Solution & Results
 
 Three models were built and compared from interpretable baseline to deep learning  to find the best balance of performance and regulatory explainability.
 
@@ -18,11 +18,11 @@ Three models were built and compared from interpretable baseline to deep learnin
 | XGBoost | 100% | 1.0 | 1.0 |
 | MLP Neural Network | 99.94% | 0.9995 | 1.0 |
 
-> 📝 **Note on near-perfect scores:** XGBoost and MLP achieved 100% and 99.94% respectively. After investigating, no data leakage was found. Logistic Regression's more modest score (86.84%) is consistent with a linear model struggling on non linear synthetic patterns.
+> **Note on near-perfect scores:** XGBoost and MLP achieved 100% and 99.94% respectively. After investigating, no data leakage was found. Logistic Regression's more modest score (86.84%) is consistent with a linear model struggling on non linear synthetic patterns.
 
 ---
 
-## 🔑 Top Risk Drivers (SHAP + Feature Importance)
+##  Top Risk Drivers (SHAP + Feature Importance)
 
 SHAP explainability and XGBoost feature importance consistently agreed on the key default signals:
 
@@ -41,7 +41,7 @@ SHAP explainability and XGBoost feature importance consistently agreed on the ke
 
 ---
 
-## ⚙️ Technical Approach
+##  Technical Approach
 
 **Data Challenges Solved:**
 - Missing values: mode-filled (categorical), mean-filled (numerical) pre-split
@@ -60,7 +60,7 @@ SHAP explainability and XGBoost feature importance consistently agreed on the ke
 
 ---
 
-## 🚀 Deployment Render App
+## Deployment Render App
 
 The Xgboost model is deployed as an interactive render application:
 
@@ -75,7 +75,7 @@ streamlit run app.py
 
 ---
 
-## 📈 Business Impact
+##  Business Impact
 
 Assuming a mid size lender, 10,000 applications/month, avg. loan £15,000, 24% default rate:
 
